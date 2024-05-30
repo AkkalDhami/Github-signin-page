@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: black;
+}
+.github_login-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login {
+  width: 280px;
+  height: 210px;
+  border: 1px solid #e6edf3b5;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #161b22;
+}
+#submit{
+  cursor: pointer;
+}
+form{
+  padding: 20px 20px;
+}
+h1 {
+  margin:0 0 10px;
+  padding:0px 0px 10px;
+  font-size: 24px;
+  font-weight: 200;
+  color: #e6edf3;
+}
+label[for="email"] {
+  font-size: 14px;
+  margin: 0 0 8px;
+  color: #e6edf3;
+}
+input[type="email"] {
+  width: 240px;
+  color: white;
+  background: #0d1117;
+  padding: 6px 12px;
+  margin: 8px 0 16px;
+  border-radius: 5px;
+  border: 1px solid #e6edf3b5;
+}
+label[for="passwd"] {
+  font-size: 14px;
+  color: #e6edf3;
+}
+ #fgp{
+  float: right;
+  font-size: 12px;
+  color: #4493f8;
+  text-decoration: none;
+}
+input[type="password"] {
+  color: white;
+  width: 240px;
+  background: #0d1117;
+  padding: 6px 12px;
+  margin: 4px 0 16px;
+  border-radius: 5px;
+  border: 1px solid #e6edf3b5;
+}
+input[id="submit"] {
+  width: 240px;
+  background-color: #238636;
+  color: #e6edf3;
+  margin:4px 0 16px;
+  padding: 6px 16px;
+  border-radius: 5px;
+  border: 1px solid #e6edf3b5;
+}
+input[id="submit"]:hover{
+    background-color: #2e9643;
+}
+.signout{
+  margin: 16px 0 0 ;
+  padding: 16px ;
+  border-radius: 7px;
+  width: 280px;
+  border: 1px solid #e6edf3b5;
+}
+p{
+  padding-left: 20px;
+  color: #e6edf3;
+  font-size: 14px;
+  display: inline;
+}
+#sgnot{
+  font-size: 14px;
+  padding-left: 55px;
+  color: #4493f8;
+  text-decoration: none;
+}
+#sgnot:hover{
+  text-decoration: underline;
+}
+ #signout{
+  font-size: 14px;
+  text-decoration: none;
+  background-color: black;
+  border: none;
+  color: #4493f8;
+  cursor: pointer;
+}
+#signout:hover{
+  text-decoration: underline;
+}
